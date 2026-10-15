@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beranda | Riyad Ahmad Abdullah</title>
+  <meta name="description" content="Portofolio Riyad Ahmad Abdullah, mahasiswa Informatika.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="wrap bar">
+      <a class="brand" href="index.html"><span class="logo">R</span> Riyad</a>
+      <button class="burger" aria-label="Buka menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="menu" aria-label="Menu utama">
+        <ul>
+          <li><a href="index.html" aria-current="page">Beranda</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projek.html">Projek</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap hero">
+      <div>
+        <h1>Halo, saya Riyad. Saya membuat aplikasi yang merapikan data dan transaksi.</h1>
+        <p>
+          Mahasiswa Informatika semester 5 yang suka mengubah masalah sehari-hari
+          menjadi aplikasi web yang rapi, mudah dipakai, dan bisa diandalkan.
+        </p>
+        <div class="aksi">
+          <a class="btn" href="projek.html">Lihat Projek</a>
+          <a class="btn ghost" href="kontak.html">Hubungi Saya</a>
+        </div>
+      </div>
+      <img src="images/hero.svg" alt="Ilustrasi jendela kode dan grafik" width="560" height="440">
+    </section>
+
+    <section class="band">
+      <div class="wrap section">
+        <div class="section-head">
+          <h2>Projek terbaru</h2>
+          <p>Dua aplikasi yang sudah saya selesaikan.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <img src="images/proj-inventaris.jpg" alt="Halaman Data Produk pada aplikasi inventaris barang">
+            <div class="isi">
+              <h3>Inventaris Barang</h3>
+              <p>Mengelola data produk lengkap dengan kategori, harga, stok, dan gambar, dengan fitur cari, ubah, dan hapus.</p>
+              <a href="projek.html#inventaris">Baca selengkapnya</a>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/proj-penjualan.jpg" alt="Dashboard admin pada sistem penjualan Online Shop">
+            <div class="isi">
+              <h3>Sistem Penjualan</h3>
+              <p>Panel admin toko online untuk memantau produk, kategori, user, transaksi, dan total pendapatan.</p>
+              <a href="projek.html#penjualan">Baca selengkapnya</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <div class="section-head">
+        <h2>Alat yang saya pakai</h2>
+      </div>
+      <ul class="chips">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li><li>MySQL</li><li>Git &amp; GitHub</li>
+      </ul>
+    </section>
+
+    <section class="wrap section">
+      <div class="jalan">
+        <a href="about.html">
+          <h3>About</h3>
+          <p>Cerita singkat tentang saya, data diri, dan kemampuan.</p>
+        </a>
+        <a href="projek.html">
+          <h3>Projek</h3>
+          <p>Detail aplikasi yang sudah saya kerjakan.</p>
+        </a>
+        <a href="kontak.html">
+          <h3>Kontak</h3>
+          <p>Cara menghubungi saya lewat Instagram dan email.</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">&copy; <span id="tahun">2026</span> Riyad Ahmad Abdullah. Dibuat dengan HTML, CSS, dan JavaScript.</div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
